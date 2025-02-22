@@ -70,7 +70,7 @@ transition: slide-left
 
 <br>
 
-<p v-click class="text-3xl" style="line-height:1.5em;"> Put simply, bioinformatics is the science of <span v-mark.underline.orange="2">storing, retrieving</span> and <span v-mark.underline.blue="3">analyzing</span> <span v-mark.underline.green="4">large amounts</span> of <span v-mark.underline.purple="5" v-mark.circle.purple="6">biological information.</span></p>
+<p v-click class="text-3xl" style="line-height:1.5em;"> Put simply, bioinformatics is the science of <span v-mark.underline.orange="2">storing, retrieving</span> and <span v-mark.underline.blue="3">analyzing</span> <span v-mark.underline.green="4">large amounts</span> of <span v-mark.underline.purple="5">biological information.</span></p>
 
 <br>
 
