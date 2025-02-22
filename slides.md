@@ -201,15 +201,25 @@ transition: slide-left
 
 <br>
 
-## Online libraries that contain structured information about living organisms.
+## Online libraries that contain <span v-mark.underline.orange="1">structured information</span> about living organisms.
 
-<p v-click class="text-2xl p-4">
-Convenient, computable access to prior knowledge that is vital for planning future experiments and for discovering new knowledge through data mining. 
+<v-click at="2">
+<p class="text-2xl p-4" style="line-height:1.25em;">
+Convenient, computable access to prior knowledge that is vital for planning <span v-mark.underline.orange="3">future experiments</span> and for discovering new knowledge through <span v-mark.box.purple="4">data mining</span>. 
 </p>
+</v-click>
 
-<p v-click class="text-2xl p-4">
+<v-click at="5">
+<p class="text-2xl p-4">
 Databases can be of different types depending upon their information content.
 </p>
+</v-click>
+
+<v-click at="6">
+<p class="text-2xl p-4">
+<a href="https://www.ncbi.nlm.nih.gov/">NCBI</a> and <a href="https://www.ebi.ac.uk/">EMBL-EBI</a> host several databases and web-servers.
+</p>
+</v-click>
 
 
 ---
@@ -262,11 +272,39 @@ function greet(){
 ---
 transition: slide-left
 ---
-# NGS -- Illumina
+# Next-Generation Sequencing
 
 <div class="flex justify-center">
-<Youtube id="EDVKxSNdSic" width=600 height=400 />
+<iframe width="700" height="394" src="https://www.youtube.com/embed/mZA3fdKijHY?si=l_zIFbCLxS7W_1JT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+---
+transition: slide-left
+---
+# Next-Generation Sequencing 
+
+<br> 
+
+## Sequencing technology is the <span v-mark.underline.orange="1">engine</span> that powers the car that allows us to navigate the human genome roadmap.
+
+<v-click at="+2">
+<p class="text-2xl pt-8" style="line-height:1.25em;">We need the raw materials, such as <span v-mark.line.orange="3">fuel (DNA)</span>, sparks to ignite the fuel <span v-mark.line.orange="4">(reagents)</span>, mechanical parts to translate fuel and ignition into movement <span v-mark.line.orange="5">(robotics)</span> and <span v-mark.box.purple="6"> direction (bioinformatics)</span>, all working in a carefully engineered balance, and a driver (genome centre) to steer the automobile quickly and efficiently to the desired <span v-mark.line.purple="7">destination (biological understanding)</span>.
+ </p>
+</v-click>
+
+
+<p class="text-sm text-right"><a href="https://doi.org/10.1038/nature09796">Nature (2011)</a></p>
+
+---
+transition: slide-left
+hide: true
+---
+# Next-Generation Sequencing -- Applications
+
+<div class="flex justify-center">
+<img src="./images/NGS_applications.jpg" width=70% />
+</div>
+<p class="text-sm text-right"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10376292/">PubMed</a></p>
 
 ---
 transition: slide-left
