@@ -204,21 +204,27 @@ transition: slide-left
 ## Online libraries that contain <span v-mark.underline.orange="1">structured information</span> about living organisms.
 
 <v-click at="2">
+
 <p class="text-2xl p-4" style="line-height:1.25em;">
 Convenient, computable access to prior knowledge that is vital for planning <span v-mark.underline.orange="3">future experiments</span> and for discovering new knowledge through <span v-mark.box.purple="4">data mining</span>. 
 </p>
+
 </v-click>
 
 <v-click at="5">
+
 <p class="text-2xl p-4">
 Databases can be of different types depending upon their information content.
 </p>
+
 </v-click>
 
 <v-click at="6">
+
 <p class="text-2xl p-4">
 <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a> and <a href="https://www.ebi.ac.uk/">EMBL-EBI</a> host several databases and web-servers.
 </p>
+
 </v-click>
 
 
