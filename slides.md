@@ -203,29 +203,23 @@ transition: slide-left
 
 ## Online libraries that contain <span v-mark.underline.orange="1">structured information</span> about living organisms.
 
-<v-click at="2">
-
+<div v-click at="2">
 <p class="text-2xl p-4" style="line-height:1.25em;">
 Convenient, computable access to prior knowledge that is vital for planning <span v-mark.underline.orange="3">future experiments</span> and for discovering new knowledge through <span v-mark.box.purple="4">data mining</span>. 
 </p>
+</div>
 
-</v-click>
-
-<v-click at="5">
-
+<div v-click at="5">
 <p class="text-2xl p-4">
 Databases can be of different types depending upon their information content.
 </p>
+</div>
 
-</v-click>
-
-<v-click at="6">
-
+<div v-click at="6">
 <p class="text-2xl p-4">
 <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a> and <a href="https://www.ebi.ac.uk/">EMBL-EBI</a> host several databases and web-servers.
 </p>
-
-</v-click>
+</div>
 
 
 ---
@@ -293,10 +287,10 @@ transition: slide-left
 
 ## Sequencing technology is the <span v-mark.underline.orange="1">engine</span> that powers the car that allows us to navigate the human genome roadmap.
 
-<v-click at="+2">
+<div v-click at="+2">
 <p class="text-2xl pt-8" style="line-height:1.25em;">We need the raw materials, such as <span v-mark.line.orange="3">fuel (DNA)</span>, sparks to ignite the fuel <span v-mark.line.orange="4">(reagents)</span>, mechanical parts to translate fuel and ignition into movement <span v-mark.line.orange="5">(robotics)</span> and <span v-mark.box.purple="6"> direction (bioinformatics)</span>, all working in a carefully engineered balance, and a driver (genome centre) to steer the automobile quickly and efficiently to the desired <span v-mark.line.purple="7">destination (biological understanding)</span>.
  </p>
-</v-click>
+</div>
 
 
 <p class="text-sm text-right"><a href="https://doi.org/10.1038/nature09796">Nature (2011)</a></p>
