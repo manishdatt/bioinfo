@@ -21,8 +21,8 @@ h1 {
 <div  class="pt-8">
 <h2 class="text-gray-500">Manish Datt</h2>
 </div>
-<div class="place-items-center">
-<img class="pt-20" src="./images/logo_final_transparent.png" width=5% />
+<div class="absolute place-items-center mt-16 ml-40">
+<img src="./images/logo_final_transparent.png" width=10% />
 </div>
 
 ---
@@ -492,3 +492,27 @@ layout: statement
 # Thank you!
 
 <p class="text-2xl pt-8">manish@<span style="font-family: 'Geo', sans-serif; color:#9c51e0;">bioinfo.guru</span></p>
+
+<script setup>
+import '@fortawesome/fontawesome-free/css/all.min.css';
+</script>
+
+<style>
+        a, a:visited, a:hover, a:active {
+		  text-decoration:none!important;
+        }
+        .social_media{
+            color: #9c51e0;
+            word-spacing: 1em;
+			}
+</style>
+
+<div v-click class="absolute pt-20">
+<span class="social_media text-2xl">
+        <a href="https://www.facebook.com/profile.php?id=100078250833738"><i class="fa-brands fa-facebook-square fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0; --fa-bounce-height: 5px; --fa-animation-duration: 2.5s;"></i></a>&nbsp;
+        <a href="https://www.instagram.com/bioinfo.guru/"><i class="fa-brands fa-instagram-square fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0; --fa-bounce-height: 5px; --fa-animation-duration: 2.5s; --fa-animation-delay: 0.5s;"></i></a>&nbsp;
+        <a href="https://www.linkedin.com/in/bioinfo-guru-68a8b7231/"><i class="fa-brands fa-linkedin fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0; --fa-bounce-height: 5px; --fa-animation-duration: 2.5s; --fa-animation-delay: 1s;"></i></a>&nbsp;
+        <a href="https://twitter.com/bioinfo_guru"><i class="fa-brands fa-square-x-twitter fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0; --fa-bounce-height: 5px; --fa-animation-duration: 2.5s; --fa-animation-delay: 1.5s;"></i></a>&nbsp;
+        <a href="https://whatsapp.com/channel/0029Va4LWh60rGiScUrdWa1m"><i class="fa-brands fa-square-whatsapp fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0; --fa-bounce-height: 5px; --fa-animation-duration: 2.5s; --fa-animation-delay: 2.0s;"></i></a>
+        </span>
+</div>
