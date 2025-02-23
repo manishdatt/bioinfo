@@ -203,19 +203,19 @@ transition: slide-left
 
 ## Online libraries that contain <span v-mark.underline.orange="1">structured information</span> about living organisms.
 
-<div v-click at="2">
+<div v-click="2">
 <p class="text-2xl p-4" style="line-height:1.25em;">
 Convenient, computable access to prior knowledge that is vital for planning <span v-mark.underline.orange="3">future experiments</span> and for discovering new knowledge through <span v-mark.box.purple="4">data mining</span>. 
 </p>
 </div>
 
-<div v-click at="5">
+<div v-click="5">
 <p class="text-2xl p-4">
 Databases can be of different types depending upon their information content.
 </p>
 </div>
 
-<div v-click at="6">
+<div v-click="6">
 <p class="text-2xl p-4">
 <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a> and <a href="https://www.ebi.ac.uk/">EMBL-EBI</a> host several databases and web-servers.
 </p>
@@ -287,7 +287,7 @@ transition: slide-left
 
 ## Sequencing technology is the <span v-mark.underline.orange="1">engine</span> that powers the car that allows us to navigate the human genome roadmap.
 
-<div v-click at="+2">
+<div v-click="+2">
 <p class="text-2xl pt-8" style="line-height:1.25em;">We need the raw materials, such as <span v-mark.line.orange="3">fuel (DNA)</span>, sparks to ignite the fuel <span v-mark.line.orange="4">(reagents)</span>, mechanical parts to translate fuel and ignition into movement <span v-mark.line.orange="5">(robotics)</span> and <span v-mark.box.purple="6"> direction (bioinformatics)</span>, all working in a carefully engineered balance, and a driver (genome centre) to steer the automobile quickly and efficiently to the desired <span v-mark.line.purple="7">destination (biological understanding)</span>.
  </p>
 </div>
@@ -431,6 +431,40 @@ Ebook:&nbsp; <a href="https://pythonbook.bioinfo.guru" target="_blank"> pythonbo
 Ebook: &nbsp; <a href="https://rbook.bioinfo.guru" target="_blank"> rbook.bioinfo.guru</a>
 </div>
 </div>
+
+---
+transition: slide-left
+---
+
+# Nobel Prizes
+
+<div class="grid grid-cols-3 h-full">
+<div>
+<img v-click src="./images/Nobel_1998.png" />
+<p v-click>
+Divided equally between Walter Kohn "for his development of the <span v-mark.line.orange="3">density-functional theory</span>" and John A. Pople "for his development of <span v-mark.line.orange="4">computational methods</span> in quantum chemistry"
+</p>
+</div>
+
+<div>
+<img v-click="5" src="./images/Nobel_2013.png" />
+<p v-click="6">
+Awarded jointly to Martin Karplus, Michael Levitt and Arieh Warshel "for the development of multiscale <span v-mark.line.orange="7">models for complex chemical</span> systems"
+</p>
+</div>
+
+<div>
+<img v-click="8" src="./images/Nobel_2024.png" />
+<p v-click="9">
+Divided, one half awarded to David Baker "for <span v-mark.line.orange="10">computational protein</span> design", the other half jointly to Demis Hassabis and John Jumper "for <span v-mark.line.orange="11">protein structure prediction</span>"
+
+</p>
+</div>
+
+</div>
+
+<p v-after class="text-sm text-right"><a href="https://www.nobelprize.org/">nobelprizes.org</a></p>
+
 
 ---
 transition: slide-left
