@@ -467,6 +467,58 @@ Ebook: &nbsp; <a href="https://rbook.bioinfo.guru" target="_blank"> rbook.bioinf
 transition: slide-left
 ---
 
+# Bioinformatics -- Research
+
+<iframe src="https://pubmed.ncbi.nlm.nih.gov/?term=bioinformatics%5BTitle%2FAbstract%5D" width="800" height="400"></iframe>
+
+---
+transition: slide-left
+---
+
+# Bioinformatics -- Research
+
+<div class="grid grid-cols-3 h-full gap-1">
+<div>
+<img v-click src="./images/Fungal_aaRS_1.png" width=80% />
+<img v-click src="./images/Fungal_aaRS_2.png" width=80% />
+<p v-after class="text-sm" style="line-height:1em;">
+Novel and unique domains in aminoacyl-tRNA synthetases from human fungal pathogens <i>Aspergillus niger</i>, <i>Candida albicans</i> and <i>Cryptococcus neoformans</i>
+<br>
+<a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-1069">Datt M and Sharma A (2014)</a>
+</p>
+</div>
+
+<div>
+<br>
+<img v-click src="./images/aaRS_docking_1.png" />
+<br>
+<br>
+<img v-click src="./images/aaRS_docking_2.jpg" />
+<br>
+<p v-after class="text-sm pt-1" style="line-height:1em;">
+In silico assessment of natural products and approved drugs as potential inhibitory scaffolds targeting aminoacyl-tRNA synthetases from <i>Plasmodium</i>
+<br>
+<a href="https://link.springer.com/article/10.1007/s13205-020-02460-6">Doshi K, Pandya N, and Datt M (2020)</a>
+</p>
+</div>
+
+<div>
+<img v-click src="./images/aaRS_MD_1.png" width=80% />
+<img v-click src="./images/aaRS_MD_2.png" width=80% />
+<p v-after class="text-sm pt-2" style="line-height:1em;">
+Interplay of substrate polymorphism and conformational plasticity of <i>Plasmodium</i> tyrosyl-tRNA synthetase
+<br>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S1476927121001523">Datt M (2021)</a>
+</p>
+</div>
+
+</div>
+
+
+---
+transition: slide-left
+---
+
 # Nobel Prizes
 
 <div class="grid grid-cols-3 h-full">
