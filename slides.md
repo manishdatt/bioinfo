@@ -17,6 +17,9 @@ h1 {
     background-clip: text;
     color: transparent;
 	padding-top: 2em;
+	}	
+.slidev-layout {
+	background: linear-gradient(to bottom, lightgrey, white);
 	}
 </style>
 
@@ -469,7 +472,7 @@ transition: slide-left
 
 # Bioinformatics -- Research
 
-<iframe src="https://pubmed.ncbi.nlm.nih.gov/?term=bioinformatics%5BTitle%2FAbstract%5D" width="800" height="400"></iframe>
+<iframe src="https://www.ncbi.nlm.nih.gov/pmc/?term=bioinformatics" width="800" height="400"></iframe>
 
 ---
 transition: slide-left
@@ -588,6 +591,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
             color: #9c51e0;
             word-spacing: 1em;
 			}
+.slidev-layout {
+	background: linear-gradient(to bottom, white, lightgrey, white);
+	}
+			
 </style>
 
 <div v-click class="absolute pt-20">
