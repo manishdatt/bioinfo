@@ -6,6 +6,7 @@ author: Manish Datt
 browserExporter: dev
 download: false
 layout: statement 
+favicon: "./images/logo_final_transparent.png"
 ---
 
 # Introduction to Bioinformatics
@@ -15,13 +16,14 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+	padding-top: 2em;
 	}
 </style>
 
 <div  class="pt-8">
 <h2 class="text-gray-500">Manish Datt</h2>
 </div>
-<div class="absolute place-items-center w-screen mt-16">
+<div class="place-items-center mt-16">
 <img src="./images/logo_final_transparent.png" width=5% />
 </div>
 
