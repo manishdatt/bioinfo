@@ -350,16 +350,55 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Bioinformatics Skills
+# Bioinformatics Skills - Access
 
-<div class="flex justify-center">
-<img src="./images/Bioinfo_edu_skill_1_2.png" width=40%/>
+<div v-click class="grid grid-cols-[20%_20%_1fr] p-4" gap-4>
+<div>
+<img class="pt-2" src="./images/Bioinfo_edu_skill_Access_1.png" />
 </div>
-<img src="./images/Bioinfo_edu_skill_2.png"/>
 
-<p v-click class="text-2xl">S4, S6, S8, S10 — Know how to <span v-mark.underline.orange="1">access</span> relevant data.</p>
+<div>
+<img src="./images/Bioinfo_edu_skill_Access_2.png" />
+</div>
 
-<p v-click class="text-2xl">S5, S7, S9 — Be able to use bioinformatics tools to <span v-mark.underline.orange="2">analyze</span> relevant data.</p>
+<div>
+S4 (Access genomic)—Know how to access genomic data, e.g., in NCBI nucleotide <span v-mark.circle.orange="3">databases</span>
+
+S6 (Access expression)—Know how to access gene expression data, e.g., in UniGene, GEO, SRA
+</div>
+
+</div>
+
+<div v-click class="grid grid-cols-[20%_20%_1fr] p-4" gap-4>
+<img src="./images/Bioinfo_edu_skill_Access_3.png" />
+<img src="./images/Bioinfo_edu_skill_Access_4.png" />
+<div>
+S8 (Access proteomic)—Know how to access proteomic data, e.g., in NCBI protein <span v-mark.circle.orange="3">databases</span>
+
+S10 (Access metabolomic)—Know how to access metabolomic and systems biology data, e.g., in the Human Metabolome <span v-mark.circle.orange="3">Database</span>
+</div>
+</div>
+
+
+
+<p class="text-sm text-right"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878">PLOS One, 2018</a></p>
+
+---
+transition: slide-left
+---
+
+# Bioinformatics Skills - Tools
+<div class="flex justify-center">
+<img src="./images/Bioinfo_edu_skill_Tools_1.png" width=20% />
+<img src="./images/Bioinfo_edu_skill_Tools_2.png" width=20% />
+<img src="./images/Bioinfo_edu_skill_Tools_3.png" width=20% />
+</div>
+
+<p v-click class="text-2xl">S5 (Tools genomic)—Be able to use bioinformatics tools to analyze genomic data, e.g., <span v-mark.circle.orange="4">BLASTN</span>, genome browser</p>
+
+<p v-click class="text-2xl">S7 (Tools expression)—Be able to use bioinformatics tools to analyze gene expression data, e.g., GeneSifter, David, ORF Finder</p>
+
+<p v-click class="text-2xl">S9 (Tools proteomic)—Be able to use bioinformatics tools to examine protein structure and function, e.g., <span v-mark.circle.orange="4">BLASTP</span>, Cn3D, PyMol</p>
 
 <p class="text-sm text-right"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878">PLOS One, 2018</a></p>
 
