@@ -420,16 +420,6 @@ transition: slide-left
 
 <p class="text-sm text-right"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878">PLOS One, 2018</a></p>
 
----
-transition: slide-left
----
-
-# Bioinformatics Skills
-
-<img src="./images/Bioinfo_edu_skills.png" width=80%/>
-
-<p class="text-sm text-right"><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878">PLOS One, 2018</a></p>
-
 
 ---
 transition: slide-left
